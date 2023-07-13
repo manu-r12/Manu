@@ -1,0 +1,46 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lobster&family=Montserrat&family=Noto+Sans:wght@300&family=Open+Sans:wght@300&family=Russo+One&family=Unica+One&display=swap');
+
+.container{
+    height: 700px;
+    width: 450px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    gap: 50px;
+    padding: 10px;
+    color: black;
+    margin-bottom: 40px;
+    /* animation: border-animation 10s infinite linear; */
+}
+
+@media (max-width: 640px) {
+    .container{
+        height: 700px;
+        width: 390px;
+        padding: 20px;
+    }
+
+   
+}
+
+.about{
+    width: 80%;
+    font-family: 'Unica One', cursive;
+    font-size: 1.3rem;
+    
+}
+
+
+.p{
+    margin-top: 10px;
+}
+
+.subHead{
+    font-size: 1.58rem;
+    font-weight: bold;
+}
+
+
+
